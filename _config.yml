@@ -21,12 +21,11 @@
 title: 闲情偶寄
 email: thomasyang00100@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  求知若饥，虚心若愚。
-  点滴记录，汇成星河。
+  聚沙成塔
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: meiyingqishi.github.io
 url: "https://meiyingqishi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Thomas Yang
+# twitter_username:
 github_username:  meiyingqishi
 
 # Build settings

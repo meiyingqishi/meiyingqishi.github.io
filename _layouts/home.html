@@ -18,7 +18,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h6> 
           <a class="post-link" href="{{ post.url | relative_url }}">
-            &#10052; {{ post.title | escape }}
+            &star; {{ post.title | escape }}
           </a>
         </h6>
         {%- if site.show_excerpts -%}
@@ -28,7 +28,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">通过 <a href="{{ "/feed.xml" | relative_url }}">RSS</a> 订阅</p>
+    <p class="rss-subscribe">通过 <a href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> RSS</a> 订阅</p>
   {%- endif -%}
 
 </div>

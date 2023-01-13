@@ -56,4 +56,4 @@ plugins:
 disqus:
   shortname: thomasyang
 
-show_excerpts: true
+show_excerpts: false

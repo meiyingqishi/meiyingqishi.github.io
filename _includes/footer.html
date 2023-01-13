@@ -12,33 +12,29 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- if site.github_username -%}
+      {%- if site.github_username -%}
+        <div class="footer-col footer-col-2">
           <li>
             <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-              <svg class="svg-icon">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-              </svg> 
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> 
               <span class="username">{{ site.github_username| escape }}</span>
             </a>
           </li>
-        {%- endif -%}
-      </div>
+        </div>
+      {%- endif -%}
 
-      <div class="footer-col footer-col-3">
-        {%- if site.twitter_username -%}
+      {%- if site.twitter_username -%}
+        <div class="footer-col footer-col-3">
           <li>
             <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-              <svg class="svg-icon">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-              </svg> 
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> 
               <span class="username">{{ site.twitter_username| escape }}</span>
             </a>
           </li>
-        {%- endif -%}
-      </div>
+        </div>
+      {%- endif -%}
 
-      <div class="footer-col footer-col-4">
+      <div class="footer-col footer-col-3">
         <p><span style='font-size: 17px;'>&#9710;</span>&nbsp;{{- site.description | escape -}}</p>
       </div>
     </div>

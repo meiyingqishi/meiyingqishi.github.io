@@ -60,3 +60,5 @@ disqus:
 show_excerpts: false
 
 google_analytics: UA-NNNNNNNN-N
+
+paginate: 10

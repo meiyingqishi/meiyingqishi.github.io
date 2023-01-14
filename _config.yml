@@ -57,3 +57,5 @@ disqus:
   shortname: thomasyang
 
 show_excerpts: false
+
+google_analytics: UA-NNNNNNNN-N

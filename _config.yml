@@ -62,6 +62,6 @@ show_excerpts: false
 
 google_analytics: UA-NNNNNNNN-N
 
-paginate: 8
+paginate: 9
 
 lang: zh-CN

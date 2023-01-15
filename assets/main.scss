@@ -3,23 +3,3 @@
 ---
 
 @import "minima";
-
-/**
- * Site header
- */
- .site-header {
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
-}
-
-.footer-col {
-  float: left;
-  padding-left: $spacing-unit / 2;
-}
-
-.footer-col > * {
-  margin-bottom: 0;
-}

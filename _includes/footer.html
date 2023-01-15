@@ -5,8 +5,8 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-3">
-        <ul class="contact-list">
-          <li class="p-name">
+        <ul class="social-media-list">
+          <li>
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
@@ -24,13 +24,9 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul>
-          <li>
-            <p><span style='font-size: 17px;'>&#9710;</span>&nbsp;{{- site.description | escape -}}</p>
-          </li>
-          <li>
-            <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> RSS</a> 订阅</p>
-          </li>
+        <ul class="social-media-list">
+          <li><span style='font-size: 17px;'>&#9710;</span>&nbsp;{{- site.description | escape -}}</li>
+          <li><a href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> RSS</a> 订阅</li>
         </ul>
       </div>
     </div>

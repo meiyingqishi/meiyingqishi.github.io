@@ -3,9 +3,26 @@
 
 @import "minima";
 
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
 // The style of homepage posts list.
 .post-link {
   font-size: 21px;
+}
+
+.footer-col {
+  float: left;
+  padding-left: $spacing-unit / 2;
+}
+
+.footer-col > * {
+  margin-bottom: 0;
 }
 
 // The svg of footer "聚沙成塔"

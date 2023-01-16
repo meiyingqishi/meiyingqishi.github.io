@@ -3,15 +3,13 @@ layout: default
 ---
 
 <div class="home">
-  
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+
+  <div id="search-searchbar"></div>
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <ul class="post-list" id="search-hits">
       {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%F" -%}
@@ -56,5 +54,7 @@ layout: default
       </div>
     </center>
   {% endif %}
+
+  {% include algolia.html %}
 
 </div>

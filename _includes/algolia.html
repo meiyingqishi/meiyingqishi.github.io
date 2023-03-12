@@ -13,23 +13,40 @@
     });
 
     const hitTemplate = function (hit) {
-        let date = hit.date;
-        let url = `{{ site.baseurl }}${hit.url}`;
+        let date = '';
+        if (hit.date) {
+            date = moment.unix(hit.date).format('YYYY-MM-DD');
+        }
+
+        let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+        
         const title = hit._highlightResult.title.value;
+
+        let breadcrumbs = '';
+        if (hit._highlightResult.headings) {
+            breadcrumbs = hit._highlightResult.headings.map(match => {
+                return `<span class="post-breadcrumb">${match.value}</span>`
+            }).join(' > ')
+        }
+
+        const content = hit._highlightResult.html.value;
+
         return `
-            <li>
+            <li class="post-item">
                 <span class="post-meta">${date}</span>
                 <h6><a class="post-link" href="${url}">&star; ${title}</a></h6>
+                {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+                <div class="post-snippet">${content}</div>
             </li>
         `;
     }
-
 
     search.addWidget(
         instantsearch.widgets.searchBox({
             container: '#search-searchbar',
             placeholder: '',
-            poweredBy: false // This is required if you're on the free Community plan
+            poweredBy: false,
+            autofocus: false
         })
     );
 
@@ -48,7 +65,11 @@
 <style>
     .ais-search-box {
         max-width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .ais-search-box--input {
+        border-radius: 25px;
     }
 
     .post-item {

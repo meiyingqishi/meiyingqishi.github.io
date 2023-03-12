@@ -4,10 +4,6 @@ layout: default
 
 <div class="home">
 
-  <div id="search-searchbar"></div>
-
-  {{ content }}
-
   {%- if site.posts.size > 0 -%}
     <ul class="post-list" id="search-hits">
       {%- for post in paginator.posts -%}

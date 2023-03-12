@@ -62,7 +62,7 @@ show_excerpts: false
 
 google_analytics: UA-NNNNNNNN-N
 
-paginate: 9
+paginate: 8
 
 lang: zh-CN
 
@@ -70,3 +70,6 @@ algolia:
   application_id: '1PYOYL3S5H'
   index_name: 'thomasyang'
   search_only_api_key: 6e1e8b894df030a74f4230ecc5678b5d
+  files_to_exclude:
+    - index.html
+    - about.md

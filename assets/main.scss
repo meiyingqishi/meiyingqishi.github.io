@@ -12,6 +12,39 @@
   position: relative;
 }
 
+.post-link {
+  display: block;
+  @include relative-font-size(1.25);
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    @include relative-font-size(1.5);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h2 {
+    @include relative-font-size(1.375);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.25);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
 .footer-col {
   float: left;
   margin-bottom: 0;
@@ -23,5 +56,5 @@
 }
 
 .social-media-list > li > span {
-  font-size: 1em;
+  @include relative-font-size(1);
 }

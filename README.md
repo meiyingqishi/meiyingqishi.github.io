@@ -1,1 +1,1 @@
-My GitHub staic [Blog](https://blog.thomasyang.site) share platform.
+My GitHub staic [Blog](https://blog.thomasyang.nl) share platform.

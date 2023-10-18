@@ -116,7 +116,7 @@ install_gost() {
 }
 
 install_config_nginx() {
-    sudo apt install nginx
+    sudo apt install -y nginx
 
     while true; do
         read -r -p "请输入你要反向代理的域名（输入 out 以退出）：" DOMAIN
@@ -139,7 +139,7 @@ install_config_nginx() {
             continue
         fi
 
-        echo '
+        echo "
         server {
             server_name ${DOMAIN};
 
@@ -151,7 +151,7 @@ install_config_nginx() {
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
         }
-        ' | sudo tee /etc/nginx/sites-available/${DOMAIN}
+        " | sudo tee /etc/nginx/sites-available/${DOMAIN}
 
         sudo ln -s /etc/nginx/sites-available/${DOMAIN} /etc/nginx/sites-enabled/${DOMAIN}
     done

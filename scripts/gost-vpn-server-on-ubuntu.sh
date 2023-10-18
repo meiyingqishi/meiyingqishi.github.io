@@ -139,19 +139,19 @@ install_config_nginx() {
             continue
         fi
 
-        echo "
+        echo '
         server {
-            server_name ${DOMAIN};
+            server_name '${DOMAIN}';
 
             location / {
-                proxy_pass http://localhost:${PORT};
+                proxy_pass http://localhost:'${PORT}';
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
         }
-        " | sudo tee /etc/nginx/sites-available/${DOMAIN}
+        ' | sudo tee /etc/nginx/sites-available/${DOMAIN}
 
         sudo ln -s /etc/nginx/sites-available/${DOMAIN} /etc/nginx/sites-enabled/${DOMAIN}
     done

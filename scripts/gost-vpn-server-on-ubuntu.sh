@@ -162,6 +162,7 @@ install_config_nginx() {
 create_cert() {
     if ! [ -x "$(command -v certbot)" ]; then
         sudo apt install certbot
+        sudo certbot plugin install nginx
     fi
 
     while true; do

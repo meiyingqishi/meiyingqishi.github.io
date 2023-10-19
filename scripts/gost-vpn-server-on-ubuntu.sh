@@ -162,7 +162,7 @@ install_config_nginx() {
 create_cert() {
     if ! [ -x "$(command -v certbot)" ]; then
         sudo apt install certbot
-        sudo certbot plugin install nginx
+        sudo apt install python3-certbot-nginx
     fi
 
     while true; do

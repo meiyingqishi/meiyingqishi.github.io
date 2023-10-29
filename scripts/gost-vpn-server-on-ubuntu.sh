@@ -141,6 +141,13 @@ install_config_nginx() {
 
         echo '
         server {
+            listen 80;
+            server_name '${DOMAIN}';
+
+            return 301 https://$server_name$request_uri;
+        }
+
+        server {
             server_name '${DOMAIN}';
 
             location / {
@@ -221,7 +228,7 @@ init(){
         select opt in "安装 TCP BBR 拥塞控制算法" \
                     "安装 Docker 服务程序" \
                     "安装 Memos 备忘录服务程序" \
-                    "安装 Gost HTTP/2 代理服务" \
+                    "安装 Gost 代理服务" \
                     "安装并配置 Nginx 反向代理" \
                     "创建 SSL 证书" \
                     "创建证书更新 CronJob" \

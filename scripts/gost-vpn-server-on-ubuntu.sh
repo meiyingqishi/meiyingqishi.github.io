@@ -141,13 +141,6 @@ install_config_nginx() {
 
         echo '
         server {
-            listen 80;
-            server_name '${DOMAIN}';
-
-            return 301 https://$server_name$request_uri;
-        }
-
-        server {
             server_name '${DOMAIN}';
 
             location / {

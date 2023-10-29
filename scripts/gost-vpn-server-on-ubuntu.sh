@@ -79,7 +79,7 @@ check_container(){
     has_container=$(sudo docker ps --format "{{.Names}}" | grep "$1")
 
     # test 命令规范： 0 为 true, 1 为 false, >1 为 error
-    if [ -n "$has_container" ] ;then
+    if [ -n "$has_container" ]; then
         return 0
     else
         return 1
@@ -101,18 +101,18 @@ install_gost() {
     read -r -p "请输入你要使用的域名：" DOMAIN
     read -r -p "请输入你要使用的用户名:" USER
     read -r -p "请输入你要使用的密码:" PASS
-    read -r -p "请输入HTTP/2需要侦听的端口号(8080)：" PORT
+    read -r -p "请输入需要侦听的端口号(8443)：" PORT
 
     if [[ -z "${PORT// }" ]] || ! [[ "${PORT}" =~ ^[0-9]+$ ]] || ! { [ "$PORT" -ge 1 ] && [ "$PORT" -le 65535 ]; }; then
-        echo -e "${COLOR_ERROR}非法端口,使用默认端口 8080 !${COLOR_NONE}"
-        PORT=8080
+        echo -e "${COLOR_ERROR}非法端口,使用默认端口 8443 !${COLOR_NONE}"
+        PORT=8443
     fi
 
     BIND_IP=0.0.0.0
 
     sudo docker run -d --name gost \
         --net=host ginuerzh/gost \
-        -L "http2://${USER}:${PASS}@${BIND_IP}:${PORT}?probe_resist=web:localhost:5230&knock=www.google.com"
+        -L "mwss://${USER}:${PASS}@${BIND_IP}:${PORT}?probeResistance=host:localhost:5230&knock=www.google.com"
 }
 
 install_config_nginx() {

@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -24,10 +24,10 @@ email: thomasyang00100@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   聚沙成塔
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: blog.thomasyang.site
-url: "https://blog.thomasyang.site" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: thomasyang00100
-github_username:  meiyingqishi
+domain: blog.thomasyang.nl
+url: "https://blog.thomasyang.nl" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: nothing
+github_username: meiyingqishi
 
 # Build settings
 theme: minima
@@ -67,8 +67,8 @@ paginate: 8
 lang: zh-CN
 
 algolia:
-  application_id: '1PYOYL3S5H'
-  index_name: 'thomasyang'
+  application_id: "1PYOYL3S5H"
+  index_name: "thomasyang"
   search_only_api_key: 6e1e8b894df030a74f4230ecc5678b5d
   files_to_exclude:
     - index.html

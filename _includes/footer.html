@@ -14,13 +14,18 @@
             {%- endif -%}
           </li>
           {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}"><svg class="svg-icon" viewBox="0 0 48 48"><use xlink:href="{{ '/assets/minima-icons.svg#gmail' | relative_url }}"></use></svg> {{ site.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.email }}"><svg class="svg-icon" style="fill: #828282;" viewBox="0 0 48 48"><use xlink:href="{{ '/assets/minima-icons.svg#gmail' | relative_url }}"></use></svg> {{ site.email }}</a></li>
           {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-1">
         {%- include social.html -%}
+        <ul class="social-media-list">
+          <li><a href="http://memos.thomasyang.nl/explore">
+            <img src="/images/my-memos-logo.png" alt="my memos logo" width="16px" height="16px" />
+          </a></li>
+        </ul>
       </div>
 
       <div class="footer-col footer-col-2">

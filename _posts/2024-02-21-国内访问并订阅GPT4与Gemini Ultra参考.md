@@ -44,7 +44,7 @@ OpenAI 的 GPT3.5 web 版和谷歌的 Gemini Pro web 版可以免费使用，但
 
 - 注册并登录 [fomepay][fomepay]。注册海外产品尽量用海外邮箱或海外手机号，如谷歌的 Gmail 邮箱，不要用大陆和香港的邮箱或手机号。
 
-- 开卡。fomepay 提供 visa（紫色）和 master card （金色）两种卡，卡类型有香港虚拟卡和美元虚拟卡，一定要选美元虚拟卡。⚠️ 注意阅读卡片描述文字（除了卡右侧有简短描述，点进卡片会有详细描述），不同的卡支持的服务不同，有的卡是不支持 ChatGPT Plus 的，选那种既支持 ChatGPT Plus 又支持 Gemini Advanced 的卡。开卡费用 10 美元，没有年费和月费，有效期 2 年。
+- 开卡。fomepay 提供 visa（金色）和 master card （紫色）两种卡，卡类型有香港虚拟卡和美元虚拟卡，一定要选美元虚拟卡。⚠️ 注意阅读卡片描述文字（除了卡右侧有简短描述，点进卡片会有详细描述），不同的卡支持的服务不同，有的卡是不支持 ChatGPT Plus 的，选那种既支持 ChatGPT Plus 又支持 Gemini Advanced 的卡。开卡费用 10 美元，没有年费和月费，有效期 2 年。
 
 ![fomepay card description example](/images/fomepayCardDescDemo.png)
 
@@ -52,7 +52,7 @@ OpenAI 的 GPT3.5 web 版和谷歌的 Gemini Pro web 版可以免费使用，但
 
 ### 3.2. GPT Plus 订阅
 
-- 打开 ChatGPT 网址：[ChatGPT][chatgpt]。
+- 打开 [ChatGPT][chatgpt]。
 
 - 点击左上角 ChatGPT 3.5 下拉按钮，点击按钮【Upgrade to Plus】，在弹出的窗口中选择中间的 Plus 订阅计划。
 

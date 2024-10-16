@@ -19,30 +19,6 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-
-  h1 {
-    @include relative-font-size(1.5);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h2 {
-    @include relative-font-size(1.375);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.25);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
-    }
-  }
 }
 
 .footer-col {

@@ -122,7 +122,6 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
   - `帐户主页[左] -> 点击自己刚托管的域名[右 example.com] -> DNS[左] -> 添加记录`
 
   - 记录类型为 A，名称为根据自己的实际要求配置的二级域名前缀（如 memos），IPv4 部分填入自己的服务器地址，
-
   **开启代理状态**（一定要开启，这是最重要的前提条件），保存，几分钟后就会生效。
 
 - 申请证书。
@@ -159,8 +158,7 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 - 上传证书到服务器（我使用的客户端是 Mac，VPS 是 AWS lightsail）。
 
   - 打开终端并执行命令，先上传到 tmp 文件夹再移动到 Nginx 的 ssl 文件夹。中括号部分是可选的，
-
-  -i 后面的参数是登录 VPS 的密钥，如果是输入密码则不需要指定这个参数。(尖括号部分需要替换为自己的地址，下同)
+    `-i` 后面的参数是登录 VPS 的密钥，如果是输入密码则不需要指定这个参数。(尖括号部分需要替换为自己的地址，下同)
 
     ```zsh
     scp [-i ~/.ssh/loginKey.pem] <~/Downloads/memos.example.com.pem> <ubuntu@memos.example.com>:/tmp/
@@ -263,12 +261,12 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 
 ## 8. 参考
 
-- [\[1\]: https://meiyingqishi.github.io/笔记/2024/12/19/Cloudflare探索之让浏览器显示安全访问网页.html][1]
-- [\[2\]: https://www.cloudflare.com/zh-cn][2]
-- [\[3\]: https://www.cloudflare.com/zh-cn/our-story][3]
-- [\[4\]: https://en.wikipedia.org/wiki/Cloudflare][4]
-- [\[5\]: https://blog.thomasyang.nl/科学上网/2023/05/20/科学上网之Gost方案v2.html][5]
-- [\[6\]: https://memos.thomasyang.nl][6]
+- \[1]: <https://meiyingqishi.github.io/笔记/2024/12/19/Cloudflare探索之让浏览器显示安全访问网页.html>
+- \[2]: <https://www.cloudflare.com/zh-cn>
+- \[3]: <https://www.cloudflare.com/zh-cn/our-story>
+- \[4]: <https://en.wikipedia.org/wiki/Cloudflare>
+- \[5]: <https://blog.thomasyang.nl/科学上网/2023/05/20/科学上网之Gost方案v2.html>
+- \[6]: <https://memos.thomasyang.nl>
 
 [1]: https://meiyingqishi.github.io/笔记/2024/12/19/Cloudflare探索之让浏览器显示安全访问网页.html
 [2]: https://www.cloudflare.com/zh-cn

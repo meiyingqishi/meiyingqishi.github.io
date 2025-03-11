@@ -212,7 +212,7 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
   sudo ln -s /etc/nginx/sites-available/<memos.example.com> /etc/nginx/sites-enabled/<memos.example.com>
   ```
 
-- 测试配置文件语法：`nginx -t`
+- 测试配置文件语法：`sudo nginx -t`
 
 - 使配置文件生效。
 

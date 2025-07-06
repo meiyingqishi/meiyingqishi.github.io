@@ -39,7 +39,7 @@ date: 2025-06-25 20:00:00 +0800
   alias unproxy='unset all_proxy http_proxy https_proxy'
   ```
 
-  > :warning: 一些工具（如： `Gemin cli`）需要使用 `http`，如果只配置了 `socks5`，就会导致运行失败（之前的教训）。
+  > :warning: 一些工具（如： `Gemini cli`）需要使用 `http`，如果只配置了 `socks5`，就会导致运行失败（之前的教训）。
 
 ### 启动容器服务
 

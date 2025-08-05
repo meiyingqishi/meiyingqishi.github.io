@@ -4,7 +4,7 @@ title: 创建 web 组件（Web Component）：<user-card>
 date: 2025-08-04 20:00:00 +0800
 ---
 
-![Web component user card shot](/images/webcomponent-usercard.png)
+![Web component user card cover](/images/usercard-cover.png)
 
 - 创建项目
 
@@ -122,3 +122,5 @@ npx serve .
 ```
 
 在浏览器中反问 <http://localhost:3000> 就能看到封面效果。
+
+![Web component user card shot](/images/webcomponent-usercard.png)

@@ -7,7 +7,7 @@ tags:  jupyter ijava
 excerpt: 在 Mac 本地安装 Jupyter lab, 并为其安装 Java 内核 IJava。
 ---
 
-![The cover for Jupyter icon](/images/jupyter_app_icon_161280.png)
+![The cover for Jupyter icon](/images/jupyter_app_icon_161280.webp)
 
 ## 目录
 
@@ -172,9 +172,9 @@ ModuleNotFoundError: No module named ‘jupyter_client'
 
 - 效果截图
 
-  ![Jupyterlab notebook](/images/jupyterlab-notebook.png)
+  ![Jupyterlab notebook](/images/jupyterlab-notebook.webp)
 
-  ![Jupyterlab notebook run hello world](/images/jupyterlab-notebook-helloworld.png)
+  ![Jupyterlab notebook run hello world](/images/jupyterlab-notebook-helloworld.webp)
 
 - 退出 Python venv 虚拟环境
 

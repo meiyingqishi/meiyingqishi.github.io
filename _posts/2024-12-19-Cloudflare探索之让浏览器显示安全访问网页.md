@@ -7,7 +7,7 @@ tags: 技术
 excerpt: 借助 Cloudflare 让我们自己部署的个人网站在浏览器端显示 HTTPS 连接。
 ---
 
-![Cloudflare flexible Cover](/images/cloudflare/cf-flexible-connect.png "题图")
+![Cloudflare flexible Cover](/images/cloudflare/cf-flexible-connect.webp "题图")
 
 ## 引文
 
@@ -51,27 +51,27 @@ CF 端到源服务器都是加密🔐的，那个才是五星完全推荐方案�
 1. 访问 [Cloudflare][cf]。
 
 1. [登录][cf-login]（如果没有账号则先[注册][cf-reg]）。
-![Cloudflare Login](/images/cloudflare/cf-login.png "登录")
+![Cloudflare Login](/images/cloudflare/cf-login.webp "登录")
 
 1. 托管域名到 Cloudflare（如果是在 Cloudflare 上购买的域名，则略过这步。
 建议在 Cloudflare 上购买域名，因为这大善人郑重承诺按成本定价， 流行的 [GoDaddy][godaddy]第一年促销便宜，
 后面会变得很贵）。
 
     1. 登录进入后，点左侧列表 **网站**，点右侧内容区的 **+ 添加域** 按钮。
-    ![Cloudflare Login](/images/cloudflare/cf-adddomain-btn.png "添加域按钮")
+    ![Cloudflare Login](/images/cloudflare/cf-adddomain-btn.webp "添加域按钮")
 
     1. 在新页面的 **输入现有域** 文本框中输入已购买的域名（如：thomasyang.org）。
-    ![Cloudflare Login](/images/cloudflare/cf-adddomain-panel.png "输入现有域面板")
+    ![Cloudflare Login](/images/cloudflare/cf-adddomain-panel.webp "输入现有域面板")
 
     1. 默认选择 **快速扫描 DNS 记录**，后面两个选项是需要付费的高级会员，点击按钮 **继续**。
 
     1. 选中下面的 **免费计划** 项并点击 **继续** 按钮。
-    ![Cloudflare Login](/images/cloudflare/cf-freepanel.png "免费计划选项")
+    ![Cloudflare Login](/images/cloudflare/cf-freepanel.webp "免费计划选项")
 
     1. 按要求更改名称服务器（完成后，需要一些时间生效）。
 
 1. 在 **网站** 面板点击已经托管成功的域名，再点击 **DNS** 面板，添加 A 记录，将域名绑定到 IP。
-![Cloudflare Login](/images/cloudflare/cf-add-a-record.png "添加 A 记录")
+![Cloudflare Login](/images/cloudflare/cf-add-a-record.webp "添加 A 记录")
 
 1. **开启代理。必须开启代理才能实现本文所说的功能。（开启代理后，Cloudflare 才能拦截并操控请求信息以实现各种功能，
 代理状态：小黄云 + 已代理。如果不开启代理，代理状态显示为 仅 DNS，则请求不经过 Cloudflare
@@ -79,15 +79,15 @@ CF 端到源服务器都是加密🔐的，那个才是五星完全推荐方案�
 基于代理来实现的）。**
 
 1. 切换到 **SSL/TLS** 下的 **概述** 面板，点击内容区的 **配置** 按钮。
-![Cloudflare Login](/images/cloudflare/cf-config-connect-secret-mode.png "配置按钮")
+![Cloudflare Login](/images/cloudflare/cf-config-connect-secret-mode.webp "配置按钮")
 
 1. **选择 Cloudflare 用于连接到您的源服务器的加密模式。经笔者实践，必须选择 灵活（flexible）模式才能生效
 （选择其它项都不会成功，浏览器仍显示当前网页使用的是不安全的连接）**
-![Cloudflare Login](/images/cloudflare/cf-flexible-mode.png "灵活模式")
+![Cloudflare Login](/images/cloudflare/cf-flexible-mode.webp "灵活模式")
 
 1. 效果如下。
 
-![Cloudflare Login](/images/cloudflare/browser-effects.png)
+![Cloudflare Login](/images/cloudflare/browser-effects.webp)
 
 ## 参考
 

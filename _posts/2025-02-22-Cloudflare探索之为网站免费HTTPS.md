@@ -7,7 +7,7 @@ tags: 技术
 excerpt: 借助 Cloudflare 让我们自己部署的个人网站使用免费的 HTTPS 连接。
 ---
 
-![Cloudflare flexible Cover](/images/cloudflare/cf-flexible-connect2.png "题图")
+![Cloudflare flexible Cover](/images/cloudflare/cf-flexible-connect2.webp "题图")
 
 ## 目录
 
@@ -226,7 +226,7 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 
   `帐户主页 -> 托管域名<example.com> -> SSL/TLS -> 概述 -> SSL/TLS 配置 -> 自定义 SSL/TLS -> 选中 完全（严格）选项并保存`
 
-  ![Secret Mode Image](/images/cloudflare/cf-secret-mode.png "加密模式")
+  ![Secret Mode Image](/images/cloudflare/cf-secret-mode.webp "加密模式")
 
 - 勾选边缘证书里面的选项（可选）。
 
@@ -240,12 +240,12 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 
     - 自定义规则
 
-      ![Self custom rule](/images/cloudflare/cf-customrule-badreq.png "自定义规则 恶意请求")
+      ![Self custom rule](/images/cloudflare/cf-customrule-badreq.webp "自定义规则 恶意请求")
 
     - 速率限制规则
 
-      ![IP access speed rate limit 1](/images/cloudflare/cf-iprate-limit01.png)
-      ![IP access speed rate limit 2](/images/cloudflare/cf-iprate-limit02.png)
+      ![IP access speed rate limit 1](/images/cloudflare/cf-iprate-limit01.webp)
+      ![IP access speed rate limit 2](/images/cloudflare/cf-iprate-limit02.webp)
 
 - 安全性设置（可选）。
 
@@ -256,8 +256,8 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 
   - `帐户主页 -> 托管域名<example.com> -> 规则 -> 概述 -> 创建规则`
 
-      ![Traffic forward rule 1](/images/cloudflare/cf-traffic-forward-rule01.png)
-      ![Traffic forward rule 2](/images/cloudflare/cf-traffic-forward-rule02.png)
+      ![Traffic forward rule 1](/images/cloudflare/cf-traffic-forward-rule01.webp)
+      ![Traffic forward rule 2](/images/cloudflare/cf-traffic-forward-rule02.webp)
 
 ## 8. 参考
 

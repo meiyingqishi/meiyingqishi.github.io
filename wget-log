@@ -1,0 +1,225 @@
+--2025-09-08 11:00:40--  https://raw.githubusercontent.com/markabelan/AIVisualExplainerFinals/refs/heads/main/CorrectData_2.json
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8000::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2025-09-08 11:03:13--  (try: 2)  https://raw.githubusercontent.com/markabelan/AIVisualExplainerFinals/refs/heads/main/CorrectData_2.json
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... failed: Operation timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 203764 (199K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/CorrectData_2.json.1’
+
+     0K .......... .......... .......... .......... .......... 25% 11.5K 13s
+    50K .......... .......... .......... .......... .......... 50% 18.2K 7s
+   100K .......... .......... .......... .......... .......... 75% 19.9K 3s
+   150K .......... .......... .......... .......... ........  100% 20.2K=12s
+
+2025-09-08 11:04:56 (16.5 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/CorrectData_2.json.1’ saved [203764/203764]
+
+--2025-09-08 11:04:56--  https://raw.githubusercontent.com/markabelan/AIVisualExplainerFinals/refs/heads/main/InCorrect%20Data_2.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 186983 (183K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/InCorrect Data_2.json.1’
+
+     0K .......... .......... .......... .......... .......... 27% 7.78K 17s
+    50K .......... .......... .......... .......... .......... 54% 22.1K 7s
+   100K .......... .......... .......... .......... .......... 82% 13.9K 3s
+   150K .......... .......... .......... ..                   100% 17.7K=14s
+
+2025-09-08 11:05:11 (12.9 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/InCorrect Data_2.json.1’ saved [186983/186983]
+
+--2025-09-08 11:05:11--  https://raw.githubusercontent.com/markabelan/AIVisualExplainerFinals/refs/heads/main/Final_2.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 372092 (363K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/Final_2.json.1’
+
+     0K .......... .......... .......... .......... .......... 13% 9.00K 35s
+    50K .......... .......... .......... .......... .......... 27% 17.8K 22s
+   100K .......... .......... .......... .......... .......... 41% 6.31K 23s
+   150K .......... .......... .......... .......... .......... 55% 14.0K 16s
+   200K .......... .......... .......... .......... .......... 68% 8.65K 12s
+   250K .......... .......... .......... .......... .......... 82% 7.75K 7s
+   300K .......... .......... .......... .......... .......... 96% 15.1K 1s
+   350K .......... ...                                        100% 7.86K=37s
+
+2025-09-08 11:05:48 (9.80 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/Final_2.json.1’ saved [372092/372092]
+
+--2025-09-08 11:05:48--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/NeuralNetworkBox.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 174750 (171K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/NeuralNetworkBox.json.1’
+
+     0K .......... .......... .......... .......... .......... 29% 8.08K 15s
+    50K .......... .......... .......... .......... .......... 58% 15.0K 7s
+   100K .......... .......... .......... .......... .......... 87% 20.2K 2s
+   150K .......... ..........                                 100% 28.7K=13s
+
+2025-09-08 11:06:01 (13.4 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/NeuralNetworkBox.json.1’ saved [174750/174750]
+
+--2025-09-08 11:06:01--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/ExtendedNN2.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 156387 (153K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/ExtendedNN2.json.1’
+
+     0K .......... .......... .......... .......... .......... 32% 9.87K 10s
+    50K .......... .......... .......... .......... .......... 65% 20.6K 4s
+   100K .......... .......... .......... .......... .......... 98% 22.7K 0s
+   150K ..                                                    100% 54.4K=9.7s
+
+2025-09-08 11:06:11 (15.8 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/ExtendedNN2.json.1’ saved [156387/156387]
+
+--2025-09-08 11:06:11--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/ThreeLayersNeuronNetwork.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 289144 (282K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/ThreeLayersNeuronNetwork.json.2’
+
+     0K .......... .......... .......... .......... .......... 17% 11.1K 21s
+    50K .......... .......... .......... .......... .......... 35% 10.5K 17s
+   100K .......... .......... .......... .......... .......... 53% 43.7K 9s
+   150K .......... .......... .......... .......... .......... 70% 52.1K 5s
+   200K .......... .......... .......... .......... .......... 88% 14.5K 2s
+   250K .......... .......... .......... ..                   100% 18.4K=17s
+
+2025-09-08 11:06:28 (17.1 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/ThreeLayersNeuronNetwork.json.2’ saved [289144/289144]
+
+--2025-09-08 11:06:28--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/Number%20Plot2.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21505 (21K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/Number Plot2.json.2’
+
+     0K .......... .......... .                               100% 8.72K=2.4s
+
+2025-09-08 11:06:31 (8.72 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/Number Plot2.json.2’ saved [21505/21505]
+
+--2025-09-08 11:06:31--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/2DPLot.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 552400 (539K) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/2DPLot.json.2’
+
+     0K .......... .......... .......... .......... ..........  9% 11.4K 43s
+    50K .......... .......... .......... .......... .......... 18% 13.6K 35s
+   100K .......... .......... .......... .......... .......... 27% 14.4K 30s
+   150K .......... .......... .......... .......... .......... 37% 15.9K 25s
+   200K .......... .......... .......... .......... .......... 46% 16.8K 20s
+   250K .......... .......... .......... .......... .......... 55% 22.3K 16s
+   300K .......... .......... .......... .......... .......... 64% 14.4K 13s
+   350K .......... .......... .......... .......... .......... 74% 9.67K 10s
+   400K .......... .......... .......... .......... .......... 83% 8.04K 7s
+   450K .......... .......... .......... .......... .......... 92% 9.67K 3s
+   500K .......... .......... .......... .........            100% 19.9K=42s
+
+2025-09-08 11:07:13 (12.9 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/2DPLot.json.2’ saved [552400/552400]
+
+--2025-09-08 11:07:13--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/3D%20Plot_b.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2380274 (2.3M) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/3D Plot_b.json.2’
+
+     0K .......... .......... .......... .......... ..........  2% 9.76K 3m53s
+    50K .......... .......... .......... .......... ..........  4% 35.5K 2m25s
+   100K .......... .......... .......... .......... ..........  6% 12.4K 2m33s
+   150K .......... .......... .......... .......... ..........  8% 9.97K 2m45s
+   200K .......... .......... .......... .......... .......... 10% 5.42K 3m26s
+   250K .......... .......... .......... .......... .......... 12% 28.8K 2m59s
+   300K .......... .......... .......... .......... .......... 15% 7.97K 3m5s
+   350K .......... .......... .......... .......... .......... 17% 11.7K 2m58s
+   400K .......... .......... .......... .......... .......... 19% 12.3K 2m51s
+   450K .......... .......... .......... .......... .......... 21% 7.84K 2m53s
+   500K .......... .......... .......... .......... .......... 23% 12.2K 2m47s
+   550K .......... .......... .......... .......... .......... 25% 15.2K 2m38s
+   600K .......... .......... .......... .......... .......... 27% 16.3K 2m29s
+   650K .......... .......... .......... .......... .......... 30% 11.7K 2m24s
+   700K .......... .......... .......... .......... .......... 32% 21.6K 2m16s
+   750K .......... .......... .......... .......... .......... 34% 6.44K 2m18s
+   800K .......... .......... .......... .......... .......... 36% 12.6K 2m12s
+   850K .......... .......... .......... .......... .......... 38% 15.7K 2m6s
+   900K .......... .......... .......... .......... .......... 40% 12.5K 2m1s
+   950K .......... .......... .......... .......... .......... 43% 15.5K 1m55s
+  1000K .......... .......... .......... .......... .......... 45% 9.21K 1m52s
+  1050K .......... .......... .......... .......... .......... 47% 11.1K 1m48s
+  1100K .......... .......... .......... .......... .......... 49% 8.74K 1m45s
+  1150K .......... .......... .......... .......... .......... 51% 7.16K 1m42s
+  1200K .......... .......... .......... .......... .......... 53% 8.02K 99s
+  1250K .......... .......... .......... .......... .......... 55% 14.9K 94s
+  1300K .......... .......... .......... .......... .......... 58% 8.28K 90s
+  1350K .......... .......... .......... .......... .......... 60% 9.50K 86s
+  1400K .......... .......... .......... .......... .......... 62% 10.6K 81s
+  1450K .......... .......... .......... .......... .......... 64% 17.0K 76s
+  1500K .......... .......... .......... .......... .......... 66% 12.2K 71s
+  1550K .......... .......... .......... .......... .......... 68% 3.14K 72s
+  1600K .......... .......... .......... .......... .......... 70% 20.9K 66s
+  1650K .......... .......... .......... .......... .......... 73% 15.7K 60s
+  1700K .......... .......... .......... .......... .......... 75% 10.5K 55s
+  1750K .......... .......... .......... .......... .......... 77% 15.8K 50s
+  1800K .......... .......... .......... .......... .......... 79% 14.1K 45s
+  1850K .......... .......... .......... .......... .......... 81% 13.9K 40s
+  1900K .......... .......... .......... .......... .......... 83% 11.9K 35s
+  1950K .......... .......... .......... .......... .......... 86% 6.42K 31s
+  2000K .......... .......... .......... .......... .......... 88% 15.7K 26s
+  2050K .......... .......... .......... .......... .......... 90% 4.13K 22s
+  2100K .......... .......... .......... .......... .......... 92% 3.60K 18s
+  2150K .......... .......... .......... .......... .......... 94% 14.1K 13s
+  2200K .......... .......... .......... .......... .......... 96% 7.26K 8s
+  2250K .......... .......... .......... .......... .......... 98% 15.9K 2s
+  2300K .......... .......... ....                            100% 5.86K=3m57s
+
+2025-09-08 11:11:11 (9.79 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/3D Plot_b.json.2’ saved [2380274/2380274]
+
+--2025-09-08 11:11:11--  https://raw.githubusercontent.com/markabelan/AIvisualexplainer/refs/heads/main/9DPlot.json
+Reusing existing connection to [raw.githubusercontent.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1813099 (1.7M) [text/plain]
+Saving to: ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/9DPlot.json.1’
+
+     0K .......... .......... .......... .......... ..........  2% 13.0K 2m12s
+    50K .......... .......... .......... .......... ..........  5% 7.13K 3m1s
+   100K .......... .......... .......... .......... ..........  8% 20.0K 2m24s
+   150K .......... .......... .......... .......... .......... 11% 12.2K 2m17s
+   200K .......... .......... .......... .......... .......... 14% 25.3K 1m58s
+   250K .......... .......... .......... .......... .......... 16% 20.4K 1m47s
+   300K .......... .......... .......... .......... .......... 19% 12.4K 1m45s
+   350K .......... .......... .......... .......... .......... 22% 13.6K 1m41s
+   400K .......... .......... .......... .......... .......... 25% 8.91K 1m43s
+   450K .......... .......... .......... .......... .......... 28% 15.2K 98s
+   500K .......... .......... .......... .......... .......... 31% 12.8K 94s
+   550K .......... .......... .......... .......... .......... 33% 15.1K 89s
+   600K .......... .......... .......... .......... .......... 36% 13.7K 85s
+   650K .......... .......... .......... .......... .......... 39% 13.6K 81s
+   700K .......... .......... .......... .......... .......... 42% 22.2K 75s
+   750K .......... .......... .......... .......... .......... 45% 13.0K 72s
+   800K .......... .......... .......... .......... .......... 48% 15.8K 67s
+   850K .......... .......... .......... .......... .......... 50% 33.1K 62s
+   900K .......... .......... .......... .......... .......... 53% 36.8K 56s
+   950K .......... .......... .......... .......... .......... 56% 6.50K 56s
+  1000K .......... .......... .......... .......... .......... 59% 10.7K 53s
+  1050K .......... .......... .......... .......... .......... 62% 15.9K 49s
+  1100K .......... .......... .......... .......... .......... 64% 14.5K 45s
+  1150K .......... .......... .......... .......... .......... 67% 8.24K 43s
+  1200K .......... .......... .......... .......... .......... 70% 14.6K 39s
+  1250K .......... .......... .......... .......... .......... 73% 25.4K 35s
+  1300K .......... .......... .......... .......... .......... 76% 8.96K 32s
+  1350K .......... .......... .......... .......... .......... 79% 18.2K 28s
+  1400K .......... .......... .......... .......... .......... 81% 11.6K 24s
+  1450K .......... .......... .......... .......... .......... 84% 17.3K 20s
+  1500K .......... .......... .......... .......... .......... 87% 16.4K 16s
+  1550K .......... .......... .......... .......... .......... 90% 17.8K 12s
+  1600K .......... .......... .......... .......... .......... 93% 7.52K 9s
+  1650K .......... .......... .......... .......... .......... 96% 14.2K 5s
+  1700K .......... .......... .......... .......... .......... 98% 21.0K 2s
+  1750K .......... ..........                                 100% 93.1K=2m10s
+
+2025-09-08 11:13:23 (13.6 KB/s) - ‘/Users/myqs/LocalDocs/meiyingqishi.github.io/assets/lotties/ai-id-cat/9DPlot.json.1’ saved [1813099/1813099]
+
+FINISHED --2025-09-08 11:13:23--
+Total wall clock time: 12m 42s
+Downloaded: 10 files, 5.9M in 8m 34s (11.7 KB/s)

@@ -4,7 +4,7 @@ title: 兼容 Docker 的苹果的容器 Container
 date: 2025-06-25 20:00:00 +0800
 ---
 
-![Apple container image](/images/apple-container01.webp)
+![Apple container image](/assets/images/apple-container01.webp)
 
 前不久，苹果公司开源了他们自己的容器系统 [Container](https://github.com/apple/container?tab=readme-ov-file)，
 官方介绍：

@@ -7,7 +7,7 @@ tags: GPT4 GeminiUltra
 excerpt: 国内访问并订阅 GPT4 和 Gemini ultra。
 ---
 
-![OpenAI and Gemini logo](/images/OpenAIAndGemini.webp)
+![OpenAI and Gemini logo](/assets/images/OpenAIAndGemini.webp)
 
 ## 目录
 
@@ -46,7 +46,7 @@ OpenAI 的 GPT3.5 web 版和谷歌的 Gemini Pro web 版可以免费使用，但
 
 - 开卡。fomepay 提供 visa（金色）和 master card （紫色）两种卡，卡类型有香港虚拟卡和美元虚拟卡，一定要选美元虚拟卡。⚠️ 注意阅读卡片描述文字（除了卡右侧有简短描述，点进卡片会有详细描述），不同的卡支持的服务不同，有的卡是不支持 ChatGPT Plus 的，选那种既支持 ChatGPT Plus 又支持 Gemini Advanced 的卡。开卡费用 10 美元，没有年费和月费，有效期 2 年。
 
-![fomepay card description example](/images/fomepayCardDescDemo.webp)
+![fomepay card description example](/assets/images/fomepayCardDescDemo.webp)
 
 - 充值。充值每次最低 22 美元，单笔最高 800 美元，每天最多充 3 次，充值时间在 8:00 - 23:59。交易额小于10美元，每笔固定扣0.1美元，大于10美元不扣。跨境手续费1%，最低0.45美元（非美国站点），美国站点消费不收取。退款手续费2% 。使用支付宝充值前需要先开启美国节点的代理，如果没开启就充，会自动弹出提示。
 

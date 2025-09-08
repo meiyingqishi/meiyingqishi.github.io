@@ -4,7 +4,7 @@ title: 使用 FFmpeg 将 PNG 图像转换为 WebP 格式
 date: 2025-07-10 20:00:00 +0800
 ---
 
-![The image about convert png to webp by ffmpeg](/images/convert-png2webp-by-ffmpeg.webp)
+![The image about convert png to webp by ffmpeg](/assets/images/convert-png2webp-by-ffmpeg.webp)
 
 使用强大的多媒体处理工具 FFmpeg，通过简单的命令行操作将 PNG 格式的图片转换为高效的 WebP 格式。
 WebP 格式通常可以提供比 PNG 更小的文件体积，同时保持相当的图像质量，这对于网页优化尤其重要。

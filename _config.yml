@@ -24,8 +24,8 @@ email: thomasyang00100@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   聚沙成塔
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: blog.thomasyang.nl
-url: "https://blog.thomasyang.nl" # the base hostname & protocol for your site, e.g. http://example.com
+domain: blog.thomas-yang.com
+url: "https://blog.thomas-yang.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: meiyingqishi
 
 # Build settings

@@ -102,6 +102,6 @@ CF 端到源服务器都是加密🔐的，那个才是五星完全推荐方案�
 [cf-reg]: https://dash.cloudflare.com/sign-up
 [godaddy]: https://www.godaddy.com
 [gost]: https://gost.run
-[memos]: https://memos.thomasyang.nl
+[memos]: https://memos.thomas-yang.com
 [memos-offcial]: https://www.usememos.com
 [nginx]: https://nginx.org

@@ -83,4 +83,4 @@ OpenAI 的 GPT3.5 web 版和谷歌的 Gemini Pro web 版可以免费使用，但
 [chatgpt]: https://chat.openai.com
 [fomepay]: https://www.fomepay.com
 [gemini]: https://gemini.google.com
-[GostV2]: https://blog.thomasyang.nl/科学上网/2023/05/20/科学上网之Gost方案v2.html
+[GostV2]: https://blog.thomas-yang.com/科学上网/2023/05/20/科学上网之Gost方案v2.html

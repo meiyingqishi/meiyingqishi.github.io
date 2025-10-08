@@ -265,12 +265,12 @@ CF 提供申请免费证书，这个证书有效期最长达 **15** 年。这个
 - \[2]: <https://www.cloudflare.com/zh-cn>
 - \[3]: <https://www.cloudflare.com/zh-cn/our-story>
 - \[4]: <https://en.wikipedia.org/wiki/Cloudflare>
-- \[5]: <https://blog.thomasyang.nl/科学上网/2023/05/20/科学上网之Gost方案v2.html>
-- \[6]: <https://memos.thomasyang.nl>
+- \[5]: <https://blog.thomas-yang.com/科学上网/2023/05/20/科学上网之Gost方案v2.html>
+- \[6]: <https://memos.thomas-yang.com>
 
 [1]: https://meiyingqishi.github.io/笔记/2024/12/19/Cloudflare探索之让浏览器显示安全访问网页.html
 [2]: https://www.cloudflare.com/zh-cn
 [3]: https://www.cloudflare.com/zh-cn/our-story
 [4]: https://en.wikipedia.org/wiki/Cloudflare
 [5]: https://meiyingqishi.github.io/科学上网/2023/05/20/科学上网之Gost方案v2.html
-[6]: https://memos.thomasyang.nl
+[6]: https://memos.thomas-yang.com

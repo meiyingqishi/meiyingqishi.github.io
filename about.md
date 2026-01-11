@@ -4,6 +4,21 @@ title: "介绍"
 permalink: /about
 ---
 
-该博客用于记录笔者日常的所见所闻所思所想所学和好文转载，略偏IT方向。<br>
-该博客不用科学上网即可访问，另有博客 [<svg class="svg-icon" viewBox="0 0 30 30"><use xlink:href="{{ '/assets/minima-icons.svg#medium' | relative_url }}"></use></svg> Medium](https://medium.com/@thomas-yang) 则需要科学上网才能访问。<br>
-读者可通过 [邮箱 <svg class="svg-icon" viewBox="0 0 48 37"><use xlink:href="{{ '/assets/minima-icons.svg#gmail' | relative_url }}"></use></svg> thomasyang00100@gmail.com](mailto:{{ site.email }}) 提供反馈。
+Thomas Yang 的个人博客。
+
+---
+
+**其它平台：**
+
+* 需科学上网原始博客：meiyingqishi.github.io
+* 公众号：写在墙上的脸
+* 小红书：魅影骑士
+* 微博：魅影骑士01
+* 知乎：魅影骑士
+* 掘金：魅影骑士0010
+* Medium：<https://medium.com/@thomas-yang>
+* Substack：<https://substack.com/@tyang>
+
+---
+
+联系邮箱：<thomasyang00100@gmail.com>

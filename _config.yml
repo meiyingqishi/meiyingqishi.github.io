@@ -60,7 +60,7 @@ disqus:
 
 show_excerpts: false
 
-google_analytics: G-FH4VN17FF2
+# google_analytics: G-FH4VN17FF2
 
 paginate: 8
 

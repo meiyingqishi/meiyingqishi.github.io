@@ -31,11 +31,21 @@
   margin-bottom: 0;
 }
 
+.social-media-list {
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .memos-icon {
-  width: 22px;
-  height: 22px;
-  display: inline-block;
-  fill: #828282;
+  width: 16px;
+  height: 16px;
   padding-right: 5px;
-  vertical-align: text-top;
+  object-fit: contain;
 }

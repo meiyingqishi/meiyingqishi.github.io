@@ -14,7 +14,7 @@
             {%- endif -%}
           </li>
           {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}"><svg class="svg-icon" viewBox="0 0 48 37"><use xlink:href="{{ '/assets/minima-icons.svg#gmail' | relative_url }}"></use></svg>{{ site.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.email }}"><svg class="svg-icon" viewBox="0 0 16 16"><use xlink:href="{{ '/assets/minima-icons.svg#email' | relative_url }}"></use></svg>{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
       </div>
@@ -24,9 +24,7 @@
           {%- if site.github_username -%}
           <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg><span class="username">{{ site.github_username | escape }}</span></a></li>
           {%- endif -%}
-          <li><a href="http://memos.thomas-yang.com/explore">
-            <img src="/assets/images/my-memos-logo.webp" class="svg-icon memos-icon" alt="my memos logo" />memos
-          </a></li>
+          <li><a href="http://memos.thomas-yang.com/explore"><svg class="svg-icon" viewBox="0 0 16 16"><use xlink:href="{{ '/assets/minima-icons.svg#memos' | relative_url }}"></use></svg>memos</a></li>
         </ul>
       </div>
 

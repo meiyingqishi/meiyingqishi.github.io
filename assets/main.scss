@@ -40,10 +40,12 @@
 }
 
 .site-footer .social-media-list {
+  display: inline-block;
+  text-align: left;
+
   li {
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 
   a {

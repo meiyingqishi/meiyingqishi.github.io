@@ -25,6 +25,7 @@
   float: left;
   margin-bottom: 0;
   padding-left: $spacing-unit / 2;
+  text-align: center;
 }
 
 .footer-col > * {
@@ -38,7 +39,7 @@
   width:         calc(33.333% - (#{$spacing-unit} / 2));
 }
 
-.social-media-list {
+.site-footer .social-media-list {
   li {
     display: flex;
     align-items: center;
@@ -46,7 +47,7 @@
   }
 
   a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
 }

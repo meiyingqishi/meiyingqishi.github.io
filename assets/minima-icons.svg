@@ -5,8 +5,7 @@
   </symbol>
 
   <symbol id="memos" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M3 3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3Zm1 3h8v1H4V6Zm0 3h8v1H4V9Zm0 3h8v1H4v-1Z"/>
-    <path d="M5 1h1v3H5V1Zm2.5 0h1v3h-1V1ZM10 1h1v3h-1V1Z"/>
+    <path fill-rule="evenodd" d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2ZM4 1h1v14H4V1ZM7 5h6v1H7V5Zm0 3h6v1H7V8Zm0 3h5v1H7v-1Z"/>
   </symbol>
 
   <symbol id="medium" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
